@@ -1,0 +1,9 @@
+.footer__links{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:740px){
+    .footer__links{
+        flex-direction: row;
+    }
+}
