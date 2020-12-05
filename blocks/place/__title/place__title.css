@@ -1,0 +1,42 @@
+.place__title{
+    margin: 0;
+    margin-left: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    color: #FFFFFF;
+    max-width: 288px;
+}
+@media screen and (min-width:425px){
+    .place__title{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        padding: 0;
+        margin: auto;
+        font-size: 42px;
+        line-height: 46px;
+        margin-bottom: 32px;
+        max-width: 288px;
+    }
+}
+@media screen and (min-width: 700px){
+    .place__title{
+        margin: 0;
+    }
+}
+@media screen and (min-width:870px){
+    .place__title{
+        font-size: 72px;
+        line-height: 76px;
+        max-width: 440px;
+    }
+}
+@media screen and (min-width:1025px){
+    .place__title{
+        max-width: 460px;
+    }
+}

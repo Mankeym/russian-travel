@@ -1,0 +1,12 @@
+@media screen and (min-width: 425px){
+    .place__url-heading{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        margin: 0;
+        letter-spacing: 0.2em;
+        color: #AAAAAA;
+    }
+}
