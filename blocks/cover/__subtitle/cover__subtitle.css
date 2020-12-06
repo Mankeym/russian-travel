@@ -14,20 +14,14 @@
     margin-right: 16px;
     margin-bottom: 33px;
     position: relative;
+    max-width: 360px;
 }
-@media screen and (min-width:425px) {
+@media screen and (min-width:390px) {
     .cover__subtitle{
         font-size: 18px;
         line-height: 22px;
         margin: auto;
         margin-top: 32px;
-        margin-bottom: 115px;
-    }
-}
-@media screen and (min-width:714px) {
-    .cover__subtitle{
-        margin-top: 32px;
-        max-width: 360px;
         margin-bottom: 115px;
     }
 }
@@ -38,7 +32,6 @@
 }
 @media screen and (min-width: 1025px) {
     .cover__subtitle {
-        margin-top: 32px;
         margin-bottom: 245px;
     }
 }

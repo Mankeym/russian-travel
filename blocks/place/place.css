@@ -16,7 +16,9 @@
         gap: 28px;
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        padding-top: 73px;
+        padding-top: 80px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     .place:first-of-type{
         padding-top: 80px;
@@ -25,14 +27,12 @@
 @media screen and (min-width:870px){
     .place{
         gap: 24px;
-        padding-top: 80px;
         margin-left: 48px;
         margin-right: 48px;
     }
 }
 @media screen and (min-width:1025px){
     .place{
-        padding-top: 80px;
         margin: auto;
         max-width: 984px;
     }

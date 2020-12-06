@@ -9,12 +9,19 @@
 @media screen and (min-width:425px){
     .place__image{
         padding: 0;
-        max-width: 340px;
         object-fit: cover;
+        align-self: center;
     }
 }
-@media screen and (min-width:768px){
+@media screen and (min-width:700px){
     .place__image{
+        align-self: flex-start;
+        max-width: 340px;
+    }
+}
+@media screen and (min-width:769px){
+    .place__image{
+        align-self: flex-start;
         max-width: 440px;
     }
 }

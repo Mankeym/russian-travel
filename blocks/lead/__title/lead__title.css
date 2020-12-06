@@ -26,9 +26,3 @@
         margin: auto;
     }
 }
-@media screen and (min-width: 912px)
-{
-    .lead__title{
-        margin: auto;
-    }
-}

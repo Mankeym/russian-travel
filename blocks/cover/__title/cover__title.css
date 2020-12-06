@@ -12,15 +12,17 @@
     color: #FFFFFF;
     align-self: center;
     position: relative;
+    white-space: pre-line;
+    max-width: 560px;
 }
-@media screen and (min-width: 425px){
+@media screen and (min-width: 390px){
     .cover__title{
+        margin: auto;
         margin-top: 115px;
     }
 }
 @media screen and (min-width: 714px){
     .cover__title{
-        margin: auto;
         font-size: 72px;
         line-height: 76px;
         max-width: 560px;
