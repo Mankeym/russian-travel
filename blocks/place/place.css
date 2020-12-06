@@ -14,8 +14,8 @@
         "image paragraph";
         justify-content: center;
         gap: 28px;
-        grid-template-columns:minmax(200px, 340px) minmax(200px, 352px);
-        grid-template-rows: minmax(30px, 92px) minmax(100px, 441px);
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
         padding-top: 73px;
     }
     .place:first-of-type{
@@ -25,8 +25,6 @@
 @media screen and (min-width:870px){
     .place{
         gap: 24px;
-        grid-template-columns:minmax(200px, 440px) minmax(200px, 456px);
-        grid-template-rows: minmax(50px, 152px) minmax(100px, 440px);
         padding-top: 80px;
         margin-left: 48px;
         margin-right: 48px;
@@ -34,8 +32,6 @@
 }
 @media screen and (min-width:1025px){
     .place{
-        grid-template-columns:minmax(200px, 460px) minmax(200px, 484px);
-        grid-template-rows: minmax(50px, 152px) minmax(100px, 460px);
         padding-top: 80px;
         margin: auto;
         max-width: 984px;
