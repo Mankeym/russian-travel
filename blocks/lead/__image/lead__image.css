@@ -3,8 +3,8 @@
     object-position: 0 0;
     width: 100%;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
     .lead__image{
-        max-width: 984px;
+        min-width: 984px;
     }
 }
